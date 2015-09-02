@@ -1,0 +1,22 @@
+{
+  "name": "ink",
+  "version": "1.0.0",
+  "description": "An IRC client for people who like pretty things.",
+  "main": "app.js",
+  "scripts": {
+    "erebuild": "./node_modules/.bin/electron-rebuild",
+    "start": "./node_modules/.bin/electron ."
+  },
+  "keywords": [
+    "IRC"
+  ],
+  "author": "Conlin Durbin <conlindurbin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "irc": "^0.3.12"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.29.2",
+    "electron-rebuild": "^0.2.3"
+  }
+}
